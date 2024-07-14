@@ -2,7 +2,7 @@ package kuaisu;
 import java.util.Arrays;
 
 public class att {
-    public static void main(String[] args) {git
+    public static void main(String[] args) {
         int[] array = { 10, 7, 8, 9, 1, 5 };
         System.out.println("Original array: " + Arrays.toString(array));
         quickSort(array, 0, array.length - 1);
